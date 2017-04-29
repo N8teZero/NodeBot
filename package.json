@@ -1,7 +1,7 @@
 {
   "name": "plugdj-robothc",
   "author": "n8tezero",
-  "version": "4.20.03",
+  "version": "4.20.05",
   "description": "Plug.dj NodeJS moderation/chat bot with some basicBot adaptations",
   "main": "index.js",
   "dependencies": {
