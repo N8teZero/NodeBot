@@ -2,6 +2,8 @@
 ## [Changelog](changelog.md)
 NodeJS framework based on AuirBot by Zeratul0.
 
+@๖ۣۜĐل - ɴᴇᴏɴ - TFL - Ping me on discord if you have questions. I'm going to bed. :P
+
 
 Features
 ------
