@@ -1,4 +1,4 @@
-# RoboTHC 4.20.03
+# RoboTHC 4.20.05
 ## [Changelog](changelog.md)
 NodeJS framework based on AuirBot by Zeratul0.
 
