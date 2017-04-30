@@ -1,16 +1,26 @@
+- April 20, 2017
+  - 4.20.04
+    - Changes
+      - Added Coins to earn and spend
+      - AFKReset command added
+      - Lotto wins included in stats
+      - Status Command added
+      - JustDoIt Command Added
+      - StartLotto Command Added
+      - Kill command added
 - April 9, 2017
-  - 4.20.03 Custom
+  - 4.20.03
     - Changes
       - Added Cleverbot integration
       - Added /skip
       - Setup variables for quick settings change
 - March 19, 2017
-  - 4.20.02 custom
+  - 4.20.02
     - Changes
       - Added MaxLength variable
       - Added Catfact/Fact/Fortune/RoomScore Command
 - March 14, 2017
-  - 4.20.01 custom
+  - 4.20.01
     - Changes
       - Forked from original
       - Added - Weed

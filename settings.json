@@ -30,7 +30,7 @@
     "allowChatCommands": true,
     "useMessageCommands": true,
     "doAFKCheck": true,
-    "doLotto": true,
+    "doLotto": false,
     "lottoInterval": 1800000,
     "doAutoDisable": true,
     "autoStuckSkip": true,

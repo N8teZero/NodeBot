@@ -12,12 +12,15 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 |commands    | | Lists active commands and amount of inactive commands.
 |candy       |`<@username>` | Give someone a random tasty candy!
 |catfact     | | Returns a random Cat fact.
+|coins       |`[@username]` | Displays your current coins. Bouncer+ can lookup other users coins.
 |cookie      |`<@username>` | Give someone a cookie!
 |dc          | | Places you back into the waitlist at your old position ONLY IF you were disconnected while waiting.Must be undefined since disconnecting.
 |fact        || Returns a random numerical fact.
 |fortune     |`[@username]` | Miss Cleo will read out a fortune! Gets your own fortune if no valid argument.
 |gif         |`<tags>`| Grabs a random image from Giphy with the given tags. 2s cooldown.
 |help        |`<chat command name>`| Returns the description of a command.
+|justdoit    |`[@username]` | Sends an inspirational gif to the user.
+|pelt        |`[@username]` | Throws a random object at a user. 
 |props       | | Show some appreciation for the DJ!
 |roll        |[`<#>]` | Returns a random number up 100
 |roomscore   | | Returns the current Room Score.
@@ -42,15 +45,18 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 |skip        |`[reason]` | Skips current song with optional reason, if valid.
 |skipreasons || Lists reasons that can be used with !skip.
 |stats       |`[@username//#userID]` | Returns the user's recorded amount of plays and votes received. Gets your own info if no valid argument.
+|status      || Views teh bot uptime, version, and hearbeat.
 
 ## Managers
 |Command Name|Arguments|Description|
 |:----------:|---------|-----------|
+|afkreset    |`@username`| Resets the AFK time for a user.
 |blacklist   |`<blacklist name>` `<add, remove//rem>` `<youtube//yt//1, soundcloud//sc//2>` `<video ID//track ID>` | Adds or removes songs to/from a given blacklist.
 |disable     |`<command name>` | Disable a command.
 |enable      |`<command name>` | Enable a command.
 |kick        |`@username`| Bans a user from the room and unbans them 2.5 seconds later, simulating a kick.
 |set         |`<option>` `<value>` | Sets a bot option to the given value. If no value is given, returns the current value of it. [Valid options.](setoptions.md)
+|startlotto  || Force starts the lotto.
 |swap        |`@user1` `@user2` | Swaps positions of two users in the waitlist. At least one must be in the waitlist.
 
 ## Hosts
@@ -87,4 +93,8 @@ These are the commands and features that are planned
 |cc          | `<command>` `<response>` | Create custom command
 |flip        | | Flips a coin
 |gamble      | `<points>` | Gambles X amount of money in some sort of game.
-|money       | `[pay]` `[@user]` | Either views your current money or pays another user
+|money       | `[pay]` `[@user]` | Either views your current money or pays another user.
+|top         |`[coins//lotto]` | View the top 5 coins or lotto users.
+|movedown    || Moves you down a place to give you more time.
+|online      || Display who is in the room for mobile users.
+|lottoeta    || Display a counter for next lotto session.
