@@ -1,5 +1,5 @@
 - April 20, 2017
-  - 4.20.04
+  - 4.20.04/5
     - Changes
       - Added Coins to earn and spend
       - AFKReset command added
