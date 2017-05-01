@@ -6,6 +6,7 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 |Command Name|Arguments|Description|
 |:----------:|---------|-----------|
 |8ball       |`<any text>` | Asks the Magic 8 Ball a question.
+|afk         |         | Sets you as AFK. Not really tho.
 |about       |         | Displays bot's "about" message.
 |anagram     |`<7-30 character string>` | Returns an anagram of the given word(s), retrieved from www.anagramgenius.com.
 |blacklists  |         | Returns list of valid blacklist names to be used with the blacklist command.
@@ -16,6 +17,7 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 |cookie      |`<@username>` | Give someone a cookie!
 |dc          |         | Places you back into the waitlist at your old position ONLY IF you were disconnected while waiting.Must be undefined since disconnecting.
 |fact        |         | Returns a random numerical fact.
+|flip        |         | Flips a coin.
 |fortune     |`[@username]` | Miss Cleo will read out a fortune! Gets your own fortune if no valid argument.
 |gif         |`<tags>`| Grabs a random image from Giphy with the given tags. 2s cooldown.
 |help        |`<chat command name>`| Returns the description of a command.
@@ -24,6 +26,7 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 |props       |         | Show some appreciation for the DJ!
 |roll        |[`<#>]` | Returns a random number up 100.
 |roomscore   |         | Returns the current Room Score.
+|rps         |`<choice>` | Play Rock Paper Scissors Lizard Spock with the bot.
 |shot        |`[@username]` | Buy a random shot for a user!
 |trigger     |         | Returns current trigger of the bot. This can be called with any valid trigger character.
 |uptime      |         | Returns uptime of this bot.
@@ -46,18 +49,19 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 |skipreasons |         | Lists reasons that can be used with !skip.
 |stats       |`[@username//#userID]` | Returns the user's recorded amount of plays and votes received. Gets your own info if no valid argument.
 |status      |         | Views teh bot uptime, version, and hearbeat.
+|swap        |`@user1` `@user2` | Swaps positions of two users in the waitlist. At least one must be in the waitlist.
 
 ## Managers
 |Command Name|Arguments|Description|
 |:----------:|---------|-----------|
 |afkreset    |`@username`| Resets the AFK time for a user.
+|bonus       |`coin #` | Rewards everyone in the room with # coins. Don't use a lot plz.
 |blacklist   |`<blacklist name>` `<add, remove//rem>` `<youtube//yt//1, soundcloud//sc//2>` `<video ID//track ID>` | Adds or removes songs to/from a given blacklist.
 |disable     |`<command name>` | Disable a command.
 |enable      |`<command name>` | Enable a command.
 |kick        |`@username`| Bans a user from the room and unbans them 2.5 seconds later, simulating a kick.
 |set         |`<option>` `<value>` | Sets a bot option to the given value. If no value is given, returns the current value of it. [Valid options.](setoptions.md)
 |startlotto  |         | Force starts the lotto.
-|swap        |`@user1` `@user2` | Swaps positions of two users in the waitlist. At least one must be in the waitlist.
 
 ## Hosts
 |Command Name|Arguments|Description|
@@ -91,7 +95,6 @@ These are the commands and features that are planned
 |Command Name|Arguments|Description|
 |:----------:|---------|-----------|
 |cc          | `<command>` `<response>` | Create custom command
-|flip        | | Flips a coin
 |gamble      | `<points>` | Gambles X amount of money in some sort of game.
 |money       | `[pay]` `[@user]` | Either views your current money or pays another user.
 |top         |`[coins//lotto]` | View the top 5 coins or lotto users.
