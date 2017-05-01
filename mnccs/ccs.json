@@ -96,6 +96,7 @@
         "!aftime": 2,
         "!dclookup": 2,
         "!english": 2,
+        "!join": 0,
         "!jointime": 2,
         "!seentime": 2,
         "!skip": 2,
