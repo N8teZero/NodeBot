@@ -63,3 +63,4 @@ typings/
 data/seenUsers.json
 settings.json
 index.js
+*.psd
