@@ -1,20 +1,9 @@
 # NodeDJ
 Command-Line bot for Plug.Dj
-NodeJS framework based on AuirBot by Zeratul0.
 
-### Features
+### Collab
 ------
-- Quick responses
-- External Logging and Data Storage
-- Automated Lottery System
-- Command-Line Interface for lightweight Moderation
-- Cleverbot AI Integration
-
-### Help
-------
-Check out the help files in this repo for some more information on how to use the bot.
-- [!set Command Help](setoptions.md)
-- [General Chat Command Explanations](chatcommands.md)
+I'm looking for devs with experience in NodeJS or Javascript. Take a look at the [Sample](sample.js) code to get an idea of how the project is written. If you feel you could be a benefit to the team, Ping me on discord @N8 ネイト#2661 or eklipz08@gmail.com
 
 ### Master vs Twin Branch
 ------
@@ -25,8 +14,9 @@ branch will always have a stable and tested version of the library. This is the 
 new features over the master branch.  However breaking changes are frequently
 added to twin and even sometimes bugs are introduced.  Bugs get fixed and 
 the breaking changes get documented before pushing to master. Twin will often
-be found in a separate room for testing. To help test, contact N8te.
+be found in a separate room for testing.
 
 ### Bugs, Ideas, or Suggestions?
 ------
-If you come across a bug or have an idea for the bot or room theme, you can submit them on the [Issues](https://github.com/N8teZero/RoboTHC/issues) page. If you don't have a github account, you can ping N8 on Discord.
+If you come across a bug or have an idea for the bot or room theme, you can submit them on the [Issues](https://github.com/N8teZero/RoboTHC/issues) page.
+
